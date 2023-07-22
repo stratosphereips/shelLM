@@ -1,15 +1,15 @@
-# repository-template
+# SheLLM
 
-This repository is a template with basic elements that every repository at Stratosphere should follow.
+This repository contains the code for the 'LLM in the Shell: Generative Honeypots`
 
 ## Features
 
-Write about what makes your [tool|code|data|repo] special.
+TBD
 
 ## Usage
 
-Write about how other people can use your [tool|code|data|repo].
+TBD
 
 # About
 
-This [tool|code|data|repo] was developed at the Stratosphere Laboratory at the Czech Technical University in Prague.
+This tool was developed at the Stratosphere Laboratory at the Czech Technical University in Prague.
