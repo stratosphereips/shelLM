@@ -34,6 +34,7 @@ Run `shelLM` with the following command:
 ```
 ~$ python3 LinuxSSHbot.py 
 ```
+![image](https://github.com/stratosphereips/shelLM/assets/2458879/021bcd0d-93ae-49aa-b3a3-dea345dffc7c)
 
 ## FAQ
 
