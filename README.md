@@ -9,6 +9,10 @@ The `shelLM` honeypot suite creates interactive, dynamic, and realistic honeypot
 1. The content from a previous session is carried over to a new session to ensure consistency.
 2. Uses a combination of techniques for prompt engineering, including Chain-of-thought.
 3. Uses prompts with precise instructions to address common LLMs problems.
+4. More creative file and directory names
+5. Allows users to "move" through folders
+6. Response is correct also for non-commands.
+7. sudo command not allowed
 
 ## Installation
 
