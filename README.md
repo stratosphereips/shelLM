@@ -1,14 +1,37 @@
 # shelLM
 
-The `shelLM` honeypot suite creates interactive, dynamic, and realistic honeypots through the use of Large Language Models (LLMs). The `shelLM` tool was created from a research project to show the effectiveness of dynamic fake file systems and command responses to keep attackers trapped longer thus increasing the intelligence collected.
+The `shelLM` honeypot suite creates interactive, dynamic, and realistic honeypots through the use of Large Language Models (LLMs). The `shelLM` tool was created from a research project to show the effectiveness of dynamic fake file systems and command responses to keep attackers trapped longer, thus increasing the intelligence collected.
 
 ## Features
 
-TBD
+`shelLM` was developed in Python and currently uses Open AI GPT models. Among its key features are:
+
+1. The content from a previous session is carried over to a new session to ensure consistency.
+2. Uses a combination of techniques for prompt engineering, including Chain-of-thought.
+3. Uses prompts with precise instructions to address common LLMs problems.
+
+## Installation
+
+The installation steps are as follows:
+
+```bash
+~$ # Install requirements
+~$ pip install -r requirements.txt
+~$
+~$ # Create env file
+~$ cp env_TEMPLATE .env
+~$ # Edit env file to add OPEN AI API KEY
+~$ vim .env
+~$
+~$ # Run shelLM
+~$ python3 LinuxSSHbot.py 
+```
 
 ## Usage
 
 TBD
+
+## FAQ
 
 # About
 
