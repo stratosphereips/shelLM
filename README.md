@@ -7,8 +7,8 @@ The `shelLM` honeypot suite creates interactive, dynamic, and realistic honeypot
 `shelLM` was developed in Python and currently uses Open AI GPT models. Among its key features are:
 
 1. The content from a previous session is carried over to a new session to ensure consistency.
-2. Uses a combination of techniques for prompt engineering, including Chain-of-thought.
-3. Uses prompts with precise instructions to address common LLMs problems.
+2. It uses a combination of techniques for prompt engineering, including chain-of-thought.
+3. Uses prompts with precise instructions to address common LLM problems.
 4. More creative file and directory names
 5. Allows users to "move" through folders
 6. Response is correct also for non-commands.
@@ -26,16 +26,28 @@ The installation steps are as follows:
 ~$ cp env_TEMPLATE .env
 ~$ # Edit env file to add OPEN AI API KEY
 ~$ vim .env
-~$
-~$ # Run shelLM
-~$ python3 LinuxSSHbot.py 
 ```
 
 ## Usage
 
-TBD
+Run `shelLM` with the following command:
+```
+~$ python3 LinuxSSHbot.py 
+```
 
 ## FAQ
+
+**What services does shelLM uses?**
+
+This version of shelLM can simulate an SSH honeypot.
+
+**Are you planning on supporting other services?**
+
+Yes. This is part of ongoing research focused on more services.
+
+**Is this just a wrapper for Open AI?**
+
+No. The core of the tool are the Prompts, that have been engineered specially to guarantee a correct behavior. Also shelLM provides other features like session management, error handling, log storage, and other key features needed in honeypots.
 
 # About
 
