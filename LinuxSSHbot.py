@@ -50,14 +50,15 @@ def main():
         
         logs = open("history.txt", "a+", encoding="utf-8")
         try:
-            res = openai.ChatCompletion.create(
+            res = openai.chat.completions.create(
                 model="gpt-3.5-turbo-16k",
                 messages = messages,
                 temperature = 0.0,
                 max_tokens = 800
             )
 
-            message = res["choices"][0]["message"].to_dict()
+            msg = res.choices[0].message.content
+            message = {"content": msg, "role": 'assistant'}
 
             if "$cd" in message["content"] or "$ cd" in message["content"]:
                 message["content"] = message["content"].split("\n")[1]
