@@ -2,6 +2,8 @@
 
 The `shelLM` honeypot suite creates interactive, dynamic, and realistic honeypots through the use of Large Language Models (LLMs). The `shelLM` tool was created from a research project to show the effectiveness of dynamic fake file systems and command responses to keep attackers trapped longer, thus increasing the intelligence collected.
 
+The extension of shelLM to a larger deception framework we call VelLMes can be found here: https://github.com/stratosphereips/VelLMes-AI-Honeypot/tree/main
+
 ## Features
 
 `shelLM` was developed in Python and currently uses Open AI GPT models. Among its key features are:
