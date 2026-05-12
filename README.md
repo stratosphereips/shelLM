@@ -6,8 +6,8 @@ The extension of shelLM to a larger deception framework we call VelLMes can be f
 
 ## Update May 2026
 
-The shelLM was extended and improved. Updates to the shelLM are in the shelLMv2 directory. For those wanting to use older version it is still available here as described below.
-\\
+The shelLM was extended and improved. Updates to the shelLM are in the shelLMv2 directory. For those wanting to use older version it is still available here as described below.<br><br>
+
 New version of shelLM was created. AdvancedshelLM and is available in its respective directory in this repository. Readme for AdvancedshelLM is in the AdvancedshelLM directory.
 
 ## Features
