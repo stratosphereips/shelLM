@@ -1,0 +1,11 @@
+To run the tests do:
+
+cd Tests/SSH/Advanced
+
+and run:
+
+python3 ssh_test_runner.py --provider einfra --model gpt-oss-120b --personality personalitySSH --trace --session-mode per-test
+
+or
+
+python3 ssh_test_runner.py --provider einfra --model gpt-oss-120b --personality personalitySSH --trace --session-mode single
