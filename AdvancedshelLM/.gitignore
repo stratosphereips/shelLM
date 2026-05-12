@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Project specific
+codebase/venv/
+codebase/logs/
+.env
+
+# Logs
+logs/
+logs_init/
+*.log
+test_logs*/
+test_output.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Temporary
+.pytest_cache/
+.mypy_cache/

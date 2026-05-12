@@ -1,0 +1,24 @@
+{
+    "asset_id": "llm_hp_gen_ssh_k8s_node_05",
+    "deception_strategy": "uncertainty",
+    "psychological_tactics": [
+        "create_opportunity"
+    ],
+    "deception_objective": "Make attacker question what is real",
+    "tactical_role": "Kubernetes cluster node with debugging leftovers",
+    "engagement_strategy": [
+        "Mix realistic and suspicious elements",
+        "Provide contradictory information"
+    ],
+    "embedded_tokens": [
+        {
+            "type": "browser_cookies",
+            "location": "/home/dev/.browser_cookies",
+            "target": "session hijacking"
+        }
+    ],
+    "interaction_hints": [
+        "Sometimes act realistic, sometimes suspicious",
+        "Create ambiguity"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "asset_id": "hp_dev_server",
+    "deception_objective": "Maximize attacker time investment",
+    "tactical_role": "Vulnerable developer workstation",
+    "engagement_strategy": [
+        "Present multiple interesting files (.bash_history, config files)",
+        "Include references to other systems",
+        "Show signs of poor security practices"
+    ],
+    "embedded_tokens": [
+        {
+            "type": "credential",
+            "location": ".bash_history",
+            "target": "prod-db-01"
+        }
+    ],
+    "interaction_hints": [
+        "Respond slowly to commands to waste time",
+        "Include realistic but misleading error messages"
+    ]
+}

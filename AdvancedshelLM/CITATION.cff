@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "AdvancedshelLM"
+version: 1.0.0
+doi: 
+date-released: 2026-05-12
+url: "https://github.com/stratosphereips/AdvancedShelLM"
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Alibalic"
+  given-names: "Eman"
+  email: alibaema@cvut.cz
+  affiliation: >-
+      Stratosphere Laboratory, AIC, FEL, Czech
+      Technical University in Prague
+- family-names: "Sladic"
+  given-names: "Muris"
+  email: sladimur@fel.cvut.cz
+  affiliation: >-
+      Stratosphere Laboratory, AIC, FEL, Czech
+      Technical University in Prague
+  orcid: "0009-0002-9308-2086"
+- family-names: Garcia
+  given-names: Sebastian
+  email: sebastian.garcia@agents.fel.cvut.cz
+  affiliation: >-
+      Stratosphere Laboratory, AIC, FEL, Czech
+      Technical University in Prague
+  orcid: 'https://orcid.org/0000-0001-6238-9910'

@@ -1,0 +1,5 @@
+requests>=2.31.0
+types-requests>=2.31.0
+PyYAML>=6.0
+types-PyYAML
+python-dotenv>=1.0.0
