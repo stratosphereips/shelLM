@@ -64,7 +64,7 @@ Variable	Description	Example Value
 OPENAI_API_KEY=
 OLLAMA_BASE_URL="http://localhost:11434" // or anywhere ollama is hosted
 EINFRA_API_KEY=
-SSH_BOT_PATH=/path/to/project/Linux_Terminal_Chatbot_MS/Honeypots - separate/SSH/LinuxSSHbot.py  //change this based on the location of where it is on your device. It should point to LinuxSSHbot.py
+SSH_BOT_PATH=/path/to/project/LinuxSSHbot.py  //change this based on the location of where it is on your device. It should point to LinuxSSHbot.py
 PUBLICAI_API_KEY=
 PUBLICAI_USER_AGENT=ShellM/1.0
 ```
